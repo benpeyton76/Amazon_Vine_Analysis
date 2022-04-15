@@ -1,10 +1,10 @@
-# Amazon_Vine_Analysis
+# ***Amazon Vine Analysis***
 
-### Overview:
+## ***Overview:***
 
 In this project, SellBy has asked for an analysis of Amazon product reviews. The Amazon Vine program pays members to write and submit reviews of products provided by different manufacturers. The SellBy team will sort through these datasets that contains reviews of the provied products. By using PySpark, performing the ETL process to extract datasets, transform the data, and load the transformed data into Postgres will be the essential part of this project, which also requires connecting to an AWS RDS instance. Then, using PySpark to see if bias exists in favorable reviews from Vine members in the dataset. 
 
-### Results:
+## ***Results:***
 
 The Amazon reviews for musical instruments were used to perform this analysis.
 
@@ -28,6 +28,6 @@ The Amazon reviews for musical instruments were used to perform this analysis.
   
   
 
-### Summary:
+## ***Summary:***
 
 As the above summary graphic shows, there is practically no bias between Vine and non-Vine members with a percentage of ~57% for both catagories. This shows that the majority of reviewers who sampled/purchased the products gave it 5 stars. There could be further exploration by reviewing the distribution across all star levels of all members. In order to get a better analysis of the surveyed products, all star level data should be scrutinized. This would provide a better understanding of the products being reviewed and how to improve them. It could also help manufacturers and retailers fine tune their inventory to better serve their clients.
